@@ -16,7 +16,7 @@ let package = Package(
             targets: ["SnowplowTracker"]),
     ],
     dependencies: [
-        .package(name: "FMDB", url: "https://github.com/ccgus/fmdb", from: "2.7.6"),
+        .package(name: "FMDB", url: "https://github.com/ccgus/fmdb", from: "2.7.7"),
         .package(name: "Mocker", url: "https://github.com/WeTransfer/Mocker.git", from: "2.5.4"),
     ],
     targets: [
