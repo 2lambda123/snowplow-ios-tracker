@@ -16,17 +16,17 @@ import Foundation
 /// Configuration object for ``TrackerController/decorateLink``
 @objc public class CrossDeviceParameterConfiguration : NSObject {
     /// Whether to include the value of ``SessionController.sessionId`` when decorating a link (enabled by default)
-    @objc var sessionId: Bool
+    @objc public var sessionId: Bool
     /// Whether to include the value of ``Subject.userId`` when decorating a link
-    @objc var subjectUserId: Bool
+    @objc public var subjectUserId: Bool
     /// Whether to include the value of ``Tracker.appId``  when decorating a link (enabled by default)
-    @objc var sourceId: Bool
+    @objc public var sourceId: Bool
     /// Whether to include the value of ``Tracker.platform`` when  decorating a link
-    @objc var sourcePlatform: Bool
+    @objc public var sourcePlatform: Bool
     /// Optional identifier/information for cross-navigation
-    @objc var reason: String?
+    @objc public var reason: String?
     
-    @objc init(
+    @objc public init(
         sessionId: Bool = true,
         subjectUserId: Bool = false,
         sourceId: Bool = true,
