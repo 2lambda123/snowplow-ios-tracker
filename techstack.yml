@@ -2,7 +2,7 @@ repo_name: 2lambda123/snowplow-ios-tracker
 report_id: 4909abb566d7a5c867e56a4b6542d5e1
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T06:52:30+00:00'
+timestamp: '2024-02-29T19:16:40+00:00'
 requested_by: 2lambda123
 provider: github
 branch: master
@@ -20,7 +20,7 @@ tools:
   detection_source_url: https://github.com/2lambda123/snowplow-ios-tracker
   detection_source: Repo Metadata
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
